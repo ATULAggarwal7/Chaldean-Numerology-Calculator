@@ -109,6 +109,9 @@ public class Main {
             }
             else{
                 System.out.println("Your Numerology Number is -->"+" "+ val);
+
+
+                
             }
             if (val==1 || t==1){
                 System.out.println("> Represented by the Celestial body of the Sun.");
