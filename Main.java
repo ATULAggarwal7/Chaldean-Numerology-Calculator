@@ -1,4 +1,6 @@
 import java.util.*;
+
+import javax.sound.midi.Soundbank;
 public class Main {
 
     public static HashMap<Character, Integer> CreateMap()
@@ -110,7 +112,65 @@ public class Main {
                 System.out.println("> People who are represented by the number 1 have a hard time dealing with big problems because they want their success to flow easily.");   
             }
             if (val==2){
-
+                System.out.println("> Represented by the celestial body of the Moon.");
+                System.out.println("> People who are represented by the number 2 are very soft and often weak.");
+                System.out.println("> The main strength of people who are represented by the number 2 is that they are good at reading people and understanding people.");
+                System.out.println("> Especially men who are represented by the number 2 are afraid to be weak.");
+                System.out.println("> It embodies the qualities of sensitivity, diplomacy, and cooperation.");
+            }
+            if(val==3){
+                System.out.println("> Represented by planet Jupiter.");
+                System.out.println("> The number 3 is the first number of the Heavenly Triad of 3, 6 and 9.");
+                System.out.println("> It’s the number of expansion, growth and the “male winner mentality”.");
+                System.out.println("> It’s a number of theories, knowledge, and advancement.");
+                System.out.println("> People who are represented by the number 3 want to do everything themselves. Therefore they often appear as a “one-man army”.");
+            }
+            if (val==4) {
+                System.out.println("> Represented by planet Uranus.");
+                System.out.println("> People who are represented by the number 4 want to be unique.");
+                System.out.println("> They are good at thinking outside the box, and they are natural-born engineers, scientists, and inventors of all kinds.");
+                System.out.println("> People who are represented by the number 4 have many enemies.");
+                System.out.println("> They almost always suffer psychological problems");                
+            }
+            if(val==5){
+                System.out.println("> Represented by planet Mercury.");
+                System.out.println("> People who are represented by the number 5 are natural born speakers.");
+                System.out.println("> The number 5 stands for motion, vigor, communication, friends, and business.");
+                System.out.println("> People who are represented by the number 5 are good at making friends and making networks.");
+                System.out.println("> It embodies the qualities of versatility, curiosity, and a desire for new experiences.");
+            }
+            if(val==6){
+                System.out.println("> Represented by planet Venus.");
+                System.out.println("> The number 6 is the second number of the Heavenly Triad of 3, 6 and 9.");
+                System.out.println("> Like in electricity, you have a plus and a minus pole. The number 3 is plus and the number 6 is minus.\r\n" + //
+                                        "This means that the number 3 is about doing and the number 6 is about receiving.");
+                System.out.println("> Number 6 stands for comfort, the homeliness and therefore people who are represented by the number 6 are slow movers and they are very stubborn.");
+                System.out.println("> People associated with it are gentle, caring, loving, and beautiful");
+            }
+            if(val==7){
+                System.out.println("> Represented by planet Neptune.");
+                System.out.println("> It is often considered to be a symbol of mystery, knowledge and intuition.");
+                System.out.println("> Number 7 is regarded as good teacher and spiritual");
+                System.out.println("> It is also an unfortunate number, indicating moodiness and anxiety issues.");
+                System.out.println("> These people are always anxious to know about the future.");
+                System.out.println("> These people are not at all greedy as they are far away from materialistic world");
+            }
+            if(val==8){
+                System.out.println("> Represented by planet Saturn.");
+                System.out.println("> People who are represented by the number 8 are born to create a major change in the world and to create something that will last forever.");
+                System.out.println("> They are also very practical in their approach to life in general.");
+                System.out.println("> Many people who are represented by the number 8 have a very tough life.");
+                System.out.println("> They have a good will power and serious nature and their determination makes them very strong to face any challenges in life.");
+                System.out.println("> They are religious one's, who always believe in God.");
+            }
+            if(val==9){
+                System.out.println("> Represented by planet Mars.");
+                System.out.println("> The number 9 is the final number of the Heavenly Triad of 3, 6 and 9. It’s also considered to be a divine number because it’s the highest number there is.");
+                System.out.println("> The number 9 is considered as the number of literally everything.");
+                System.out.println("> According to ancient Chaldean philosophy, everything is nothing, and nothing is everything.\r\n" + //
+                                        "Therefore people who are represented by the number 9 are meant to be the enforcers of Karma and justice.");
+                System.out.println("> People who are represented by the number 9 are focused on justice, integrity, and honor.");
+                System.out.println("> Nearly all people who are represented by the number 9 have had a tough childhood.");
             }
 
         }
