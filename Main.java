@@ -98,6 +98,8 @@ public class Main {
 
             int sum=calnum(name,map);                                                     // function calling
             int val=SumOfDigit(sum);                                                      // function calling
+
+            
             if(val>9){
                 System.out.println("Your Numerology Number is -->"+" "+ SumOfDigit(val));
             }
