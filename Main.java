@@ -97,51 +97,55 @@ public class Main {
             String name=sc.nextLine();
 
             int sum=calnum(name,map);                                                     // function calling
+
+            System.out.println("Sum of your name is -->"+" "+sum);                         // print sun 
+
             int val=SumOfDigit(sum);                                                      // function calling
 
-            
+
+            int t=SumOfDigit(val);
             if(val>9){
-                System.out.println("Your Numerology Number is -->"+" "+ SumOfDigit(val));
+                System.out.println("Your Numerology Number is -->"+" "+ t);               //print sum in 1 digit
             }
             else{
                 System.out.println("Your Numerology Number is -->"+" "+ val);
             }
-            if (val==1){
+            if (val==1 || t==1){
                 System.out.println("> Represented by the Celestial body of the Sun.");
                 System.out.println("> They are mainly determined and commanding in nature which make them the best and natural leaders.");
                 System.out.println("> These people are full of confidence and powerful.");
                 System.out.println("> People who are represented by the number 1 are also very creative and very perfectionist.");
                 System.out.println("> People who are represented by the number 1 have a hard time dealing with big problems because they want their success to flow easily.");   
             }
-            if (val==2){
+            if (val==2 || t==2){
                 System.out.println("> Represented by the celestial body of the Moon.");
                 System.out.println("> People who are represented by the number 2 are very soft and often weak.");
                 System.out.println("> The main strength of people who are represented by the number 2 is that they are good at reading people and understanding people.");
                 System.out.println("> Especially men who are represented by the number 2 are afraid to be weak.");
                 System.out.println("> It embodies the qualities of sensitivity, diplomacy, and cooperation.");
             }
-            if(val==3){
+            if(val==3 || t==3){
                 System.out.println("> Represented by planet Jupiter.");
                 System.out.println("> The number 3 is the first number of the Heavenly Triad of 3, 6 and 9.");
                 System.out.println("> Its the number of expansion, growth and the “male winner mentality”.");
                 System.out.println("> It’s a number of theories, knowledge, and advancement.");
                 System.out.println("> People who are represented by the number 3 want to do everything themselves. Therefore they often appear as a “one-man army”.");
             }
-            if (val==4) {
+            if(val==4 || t==4) {
                 System.out.println("> Represented by planet Uranus.");
                 System.out.println("> People who are represented by the number 4 want to be unique.");
                 System.out.println("> They are good at thinking outside the box, and they are natural-born engineers, scientists, and inventors of all kinds.");
                 System.out.println("> People who are represented by the number 4 have many enemies.");
                 System.out.println("> They almost always suffer psychological problems");                
             }
-            if(val==5){
+            if(val==5 || t==5){
                 System.out.println("> Represented by planet Mercury.");
                 System.out.println("> People who are represented by the number 5 are natural born speakers.");
                 System.out.println("> The number 5 stands for motion, vigor, communication, friends, and business.");
                 System.out.println("> People who are represented by the number 5 are good at making friends and making networks.");
                 System.out.println("> It embodies the qualities of versatility, curiosity, and a desire for new experiences.");
             }
-            if(val==6){
+            if(val==6 || t==6){
                 System.out.println("> Represented by planet Venus.");
                 System.out.println("> The number 6 is the second number of the Heavenly Triad of 3, 6 and 9.");
                 System.out.println("> Like in electricity, you have a plus and a minus pole. The number 3 is plus and the number 6 is minus.\r\n" + //
@@ -149,7 +153,7 @@ public class Main {
                 System.out.println("> Number 6 stands for comfort, the homeliness and therefore people who are represented by the number 6 are slow movers and they are very stubborn.");
                 System.out.println("> People associated with it are gentle, caring, loving, and beautiful");
             }
-            if(val==7){
+            if(val==7 || t==7){
                 System.out.println("> Represented by planet Neptune.");
                 System.out.println("> It is often considered to be a symbol of mystery, knowledge and intuition.");
                 System.out.println("> Number 7 is regarded as good teacher and spiritual");
@@ -157,7 +161,7 @@ public class Main {
                 System.out.println("> These people are always anxious to know about the future.");
                 System.out.println("> These people are not at all greedy as they are far away from materialistic world");
             }
-            if(val==8){
+            if(val==8 || t==8){
                 System.out.println("> Represented by planet Saturn.");
                 System.out.println("> People who are represented by the number 8 are born to create a major change in the world and to create something that will last forever.");
                 System.out.println("> They are also very practical in their approach to life in general.");
@@ -165,7 +169,7 @@ public class Main {
                 System.out.println("> They have a good will power and serious nature and their determination makes them very strong to face any challenges in life.");
                 System.out.println("> They are religious one's, who always believe in God.");
             }
-            if(val==9){
+            if(val==9 || t==9){
                 System.out.println("> Represented by planet Mars.");
                 System.out.println("> The number 9 is the final number of the Heavenly Triad of 3, 6 and 9. It’s also considered to be a divine number because it’s the highest number there is.");
                 System.out.println("> The number 9 is considered as the number of literally everything.");
