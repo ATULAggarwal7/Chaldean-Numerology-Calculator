@@ -103,8 +103,14 @@ public class Main {
                 System.out.println("Your Numerology Number is -->"+" "+ val);
             }
             if (val==1){
-                
-                
+                System.out.println("> Represented by the Celestial body of the Sun.");
+                System.out.println("> They are mainly determined and commanding in nature which make them the best and natural leaders.");
+                System.out.println("> These people are full of confidence and powerful.");
+                System.out.println("> People who are represented by the number 1 are also very creative and very perfectionist.");
+                System.out.println("> People who are represented by the number 1 have a hard time dealing with big problems because they want their success to flow easily.");   
+            }
+            if (val==2){
+
             }
 
         }
