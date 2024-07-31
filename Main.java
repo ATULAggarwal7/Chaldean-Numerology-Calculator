@@ -103,7 +103,7 @@ public class Main {
             int val=SumOfDigit(sum);                                                      // function calling
 
 
-            int t=SumOfDigit(val);
+            int t=SumOfDigit(val);                                                        // get a single number from two digit(again calling fun)
             if(val>9){
                 System.out.println("Your Numerology Number is -->"+" "+ t);               //print sum in 1 digit
             }
