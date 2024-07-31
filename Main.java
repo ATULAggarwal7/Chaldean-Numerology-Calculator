@@ -121,8 +121,8 @@ public class Main {
             if(val==3){
                 System.out.println("> Represented by planet Jupiter.");
                 System.out.println("> The number 3 is the first number of the Heavenly Triad of 3, 6 and 9.");
-                System.out.println("> It’s the number of expansion, growth and the “male winner mentality”.");
-                System.out.println("> It’s a number of theories, knowledge, and advancement.");
+                System.out.println("> Its the number of expansion, growth and the male winner mentality.");
+                System.out.println("> Its a number of theories, knowledge, and advancement.");
                 System.out.println("> People who are represented by the number 3 want to do everything themselves. Therefore they often appear as a “one-man army”.");
             }
             if (val==4) {
